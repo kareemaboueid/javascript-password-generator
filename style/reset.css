@@ -1,0 +1,18 @@
+/*
+==============================================
+Custom reset styles
+==============================================
+*/
+
+/* html */
+html {
+  font-size: 100%;
+}
+
+/* body */
+body {
+  line-height: 1.5;
+  color: var(--black);
+  font-weight: normal;
+  background: var(--sec-color-50);
+}

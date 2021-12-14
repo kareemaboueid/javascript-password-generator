@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- primary tags -->
+  <meta charset="UTF-8">
+  <title>KM - password generator</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- app stylesheet -->
+  <link rel="stylesheet" href="./style/index.css">
+
+</head>
+
+<body>
+  <main>
+    <h1 class="text-center p-tb-2">Password Generator</h1>
+    <div class="container">
+      <div class="card p-rl-3 p-tb-0-5">
+        <form class="password-generate-form">
+          <!-- password options -->
+          <div class="password-generate-options p-tb-1">
+            <!-- opt 1 -->
+            <div class="opt">
+              <label for="passCharShort" class="p-tb-0-5">Short</label>
+              <input id="passCharShort" name="passCharOpt" type="radio" checked>
+            </div>
+            <!-- opt 2 -->
+            <div class="opt">
+              <label for="passCharMedium" class="p-tb-0-5">Medium</label>
+              <input id="passCharMedium" name="passCharOpt" type="radio">
+            </div>
+            <!-- opt 3 -->
+            <div class="opt">
+              <label for="passCharLong" class="p-tb-0-5">Long</label>
+              <input id="passCharLong" name="passCharOpt" type="radio">
+            </div>
+          </div>
+          <!-- generate button -->
+          <div class="password-generate-button p-tb-1">
+            <button id="passGenerateBtn" class="btn" type="button">generate password</button>
+          </div>
+        </form>
+        <!-- generated password -->
+        <div class="password-generate-result p-tb-1">
+          <p id="passGenerateResult" class="text-center p-1">your password here</p>
+          <button id="passCopyBtn" class="btn" type="button" title="copy to clipboard">
+            <i class="ri-file-copy-line"></i>
+            <i class="hidden ri-check-line"></i>
+          </button>
+        </div>
+      </div>
+      <p class="cr text-center">coded by <a href="https://twitter.com/KareemAboeid">@KareemAboeid</a> - <a
+          href="https://github.com/KareemAbo3id"><i class="ri-github-fill"></i></a></p>
+    </div>
+  </main>
+
+  <!-- app script -->
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

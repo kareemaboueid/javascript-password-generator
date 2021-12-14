@@ -1,0 +1,64 @@
+.password-generate-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-generate-options {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.password-generate-options .opt {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+
+.password-generate-options .opt label {
+  width: 100%;
+}
+
+.password-generate-result {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  gap: 0rem;
+  border-top: 0.1rem solid var(--sec-color-200);
+}
+
+.password-generate-result p {
+  max-width: 50%;
+  text-align: center;
+  background-color: var(--sec-color-200);
+  color: var(--sec-color-700);
+
+  border-bottom-left-radius: 0.2rem;
+  border-top-left-radius: 0.2rem;
+}
+
+.password-generate-result button {
+  color: var(--prim-color-500);
+  background-color: var(--sec-color-200);
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.password-generate-result button:hover,
+.password-generate-result button:active {
+  background-color: var(--sec-color-200);
+  color: var(--prim-color-600);
+}

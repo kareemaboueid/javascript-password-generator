@@ -1,0 +1,35 @@
+/*
+==============================================
+ Colors - for global use among css files
+==============================================
+*/
+
+:root {
+  /* Primary Colors Variables */
+  --prim-color-50: hsl(231, 44%, 94%);
+  --prim-color-100: hsl(232, 45%, 84%);
+  --prim-color-200: hsl(234, 44%, 74%);
+  --prim-color-300: hsl(230, 44%, 64%);
+  --prim-color-400: hsl(231, 44%, 56%);
+  --prim-color-500: hsl(231, 48%, 48%);
+  --prim-color-600: hsl(232, 50%, 45%);
+  --prim-color-700: hsl(232, 54%, 41%);
+  --prim-color-800: hsl(233, 57%, 37%);
+  --prim-color-900: hsl(235, 66%, 30%);
+
+  /* Secondary Colors Variables */
+  --sec-color-50: hsl(0, 0%, 98%);
+  --sec-color-100: hsl(0, 0%, 96%);
+  --sec-color-200: hsl(0, 0%, 93%);
+  --sec-color-300: hsl(0, 0%, 88%);
+  --sec-color-400: hsl(0, 0%, 74%);
+  --sec-color-500: hsl(0, 0%, 62%);
+  --sec-color-600: hsl(0, 0%, 46%);
+  --sec-color-700: hsl(0, 0%, 38%);
+  --sec-color-800: hsl(0, 0%, 26%);
+  --sec-color-900: hsl(0, 0%, 13%);
+
+  /* Other Colors */
+  --white: #fff;
+  --black: var(--sec-color-800);
+}
